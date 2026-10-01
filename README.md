@@ -11,6 +11,11 @@ This is the Fall 2026 S01 starter for making a small interactive page and learni
 5. Make your own change to the button handler in `src/main.ts`. Make its effect visible on the page, test it locally, and run `deno task ci` before committing and pushing to GitHub.
 6. Replace this README with a short description of **your** project and what you changed. Keep useful setup instructions if you like.
 
+## Added section of README
+
+The counter increments by one each time the button is pressed and the on screen text reflects
+the change showing you the amount of times the button has been pressed.
+
 The project uses [Vite 8.3.1](https://vite.dev/) for local preview and building, [Deno](https://docs.deno.com/runtime/) for TypeScript checks and linting, [GitHub Actions](https://docs.github.com/en/actions) for checks and deployment, and [GitHub Pages](https://docs.github.com/en/pages) to make the page public. `deno task ci` runs formatting, lint, type checks, and a production build. The local pre-commit hook runs the same checks.
 
 ## Publish the page
