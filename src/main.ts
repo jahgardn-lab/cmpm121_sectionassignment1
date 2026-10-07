@@ -6,7 +6,13 @@
 console.log("🎮 CMPM 121 - Starting...");
 
 // Simple counter for demonstration
+
 let counter: number = 0;
+const colorCatalogue = [
+  "#ff00bf",
+  "#05ff16",
+  "#0dc2f4",
+];
 
 // Create basic HTML structure
 document.body.innerHTML = `
@@ -22,4 +28,5 @@ const counterElement = document.getElementById("counter")!;
 button.addEventListener("click", () => {
   counter++;
   counterElement.textContent = counter + "";
+  button.style.backgroundColor = colorCatalogue[Math.floor(Math.random() * 3)];
 });
