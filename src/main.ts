@@ -12,6 +12,7 @@ const colorCatalogue = [
   "#ff00bf",
   "#05ff16",
   "#0dc2f4",
+  "orange",
 ];
 
 // Create basic HTML structure
